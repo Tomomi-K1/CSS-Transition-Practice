@@ -1,0 +1,88 @@
+/*===== Mock 1 =======*/
+button{
+    font-size: 25px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    width: 130px;
+    background-color:#57A6F9;
+    transition: background-color 0.5s;
+    margin: 50px auto;
+}
+
+button:hover {
+    background-color: #3471AF;
+    cursor: pointer;
+}
+
+/*===== Mock 2 =======*/
+#card{
+    width: 500px;
+    border-radius: 10px;
+    background-color: #eeeeee;
+    border: solid 1px #cecece;
+    box-shadow: 2px 2px 2px #c1c1c1;
+    margin: 0 auto;
+}
+
+#card img.cat-picture{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+hr{
+    border: solid 0.5px #cecece;
+}
+
+h1, p {
+    margin: 0;
+    padding: 10px 20px;
+}
+
+/* ===== Mock 3 ======= */
+
+#container {
+    display: flex;
+    margin: 100px auto;
+    width: 90%;
+    
+}
+
+.box1, .box2, .box3 {
+    border: 3px solid orange;
+    width: 300px;
+    height: 300px;
+    margin: 0 5%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.gif,
+.cover-screen{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 17px;
+}
+
+
+.cover-screen{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    box-sizing: border-box;
+    background-color: rgba(1, 1, 1, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top:300px;
+    transition: top 1s;
+}
+
+.gif:hover + .cover-screen{
+    top: 0;
+}
+
+
+
