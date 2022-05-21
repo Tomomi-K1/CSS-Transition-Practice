@@ -69,7 +69,22 @@ h1, p {
     height: 100%;
     /* position: absolute; */
     border-radius: 17px;  
+    background-position: center;
+    background-size: cover;
 }
+
+.img-1 {
+    background-image: url("http://www.reactiongifs.com/wp-content/uploads/2013/02/heidi-eating.gif");
+}
+
+.img-2{
+    background-image: url("http://www.reactiongifs.com/wp-content/uploads/2012/12/funny-pug-dance.gif");
+}
+
+.img-3{
+    background-image: url("http://www.reactiongifs.com/r/hi5.gif");
+}
+
 .cover-screen{
     width: 100%;
     height: 100%;
